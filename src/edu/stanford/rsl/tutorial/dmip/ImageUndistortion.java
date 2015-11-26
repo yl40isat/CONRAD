@@ -357,18 +357,18 @@ public class ImageUndistortion{
 		
 		// TODO : adapt the paths
 		int caseNo = 0;
-		String filename = "/proj/i5dmip/yl40isat/CONRAD/src/edu/stanford/rsl/tutorial/dmip/frame32.jpg";
+		String filename = "/proj/i5dmip/yl40isat/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/frame32.jpg";
 		
 		if(caseNo == 0)
 		{
-			filename = "/proj/i5dmip/yl40isat/CONRAD/src/edu/stanford/rsl/tutorial/dmip/frame32.jpg";
+			filename = "/proj/i5dmip/yl40isat/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/frame32.jpg";
 		}
 		else if(caseNo == 1)
 		{
-			filename = "/proj/i5dmip/yl40isat/CONRAD/src/edu/stanford/rsl/tutorial/dmip/undistorted.jpg";
+			filename = "/proj/i5dmip/yl40isat/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/undistorted.jpg";
 		}else if(caseNo == 2)
 		{
-			filename = "/proj/i5dmip/yl40isat/CONRAD/src/edu/stanford/rsl/tutorial/dmip/frame90.jpg";
+			filename = "/proj/i5dmip/yl40isat/Reconstruction/CONRAD/src/edu/stanford/rsl/tutorial/dmip/frame90.jpg";
 		}
 				
 		Grid2D image = ImageUtil.wrapImagePlus(IJ.openImage(filename)).getSubGrid(0);
